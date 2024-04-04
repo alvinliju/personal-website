@@ -2,6 +2,9 @@
 
 Welcome to my personal website! This is where I showcase my projects, share insights, and connect with the world.
 
+You can access the deployed build [here](https://personal-website-pi-pink.vercel.app/).
+
+
 ## About
 
 Hi, I'm Alvin Liju, a software engineer who loves building cool things with code. When I'm not coding, you'll find me hitting the gym or exploring outdoor adventures. Join me on this journey as I combine my passion for technology with my commitment to fitness.
@@ -13,7 +16,7 @@ Hi, I'm Alvin Liju, a software engineer who loves building cool things with code
 
 ## Deployment
 
-This website is deployed using [Vercel](https://vercel.com/). You can access the deployed build [here](https://personal-website-pi-pink.vercel.app/).
+This website is deployed using [Vercel](https://vercel.com/). 
 
 ## Getting Started
 
