@@ -27,7 +27,7 @@ To view the website locally, simply clone this repository:
 
 ```bash
 git clone [https://github.com/your-username/personal-website.git](https://github.com/alvinliju/personal-website)
-
+```
 
 ## 📄 License
 
