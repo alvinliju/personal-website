@@ -26,5 +26,9 @@ This website is deployed using [Vercel](https://vercel.com/).
 To view the website locally, simply clone this repository:
 
 ```bash
-git clone https://github.com/your-username/personal-website.git
+git clone [https://github.com/your-username/personal-website.git](https://github.com/alvinliju/personal-website)
 
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
