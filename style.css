@@ -124,11 +124,43 @@ section{
     display: flex;
     align-items: center;
     gap:14px;
+    cursor: pointer;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.outreach:hover{
+    opacity:0.7 ;
 }
 
 .outreach i{
     transform: rotate(-45deg);
 }
+
+.headerText{
+    font-weight:bolder;
+    font-size: 1.5em;
+    margin-bottom: 24px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.projectItem{
+    display: flex;
+    align-items:stretch ;
+    gap: 12px;
+}
+
+.projectItem div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
 
 @media (min-width:640px) {
     .statsContainer{
