@@ -64,6 +64,7 @@ main,section, .nameContainer{
 
 main {
     gap: 64px;
+    padding: 4px;
 }
 
 section{
@@ -146,7 +147,7 @@ section{
 .projectContainer{
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap:72px;
 }
 
 .projectItem{
@@ -155,12 +156,39 @@ section{
     gap: 12px;
 }
 
-.projectItem div:first-of-type{
+.projectItem div:first-child{
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
 
+.projectItem div:last-child{
+    aspect-ratio: 16/9;
+    max-width: 40%;
+    overflow: hidden;
+}
+
+.projectItem div:last-of-type img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 24px;
+}
+
+.linkContainer{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.linkItems{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-color);
+}
 
 @media (min-width:640px) {
     .statsContainer{
