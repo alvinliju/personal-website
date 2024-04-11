@@ -125,11 +125,14 @@ section{
 
 .outreach{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap:14px;
     cursor: pointer;
     margin-right: auto;
     width: fit-content;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .outreach:hover{
