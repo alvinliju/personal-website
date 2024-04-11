@@ -51,6 +51,8 @@ nav{
 }
 nav a{
     cursor: pointer;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 nav a:hover{
